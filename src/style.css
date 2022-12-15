@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#content {
+  min-height: 100vh;
+  background-color: rgb(44, 46, 46);
+  padding-top: 50px;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 300 300 300;
+}
+#homePage {
+  min-height: 100vh;
+  background-color: rgb(44, 46, 46);
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+.tab {
+  padding: 10px 100px 20px 100px;
+  margin-bottom: 0;
+}
+.foodItemContainer {
+  text-align: center;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.hidden {
+  display: none;
+}
+
+.tabOn {
+  border-radius: 50px 50px 0px 0px;
+  margin-bottom: 0;
+  padding: 10px 100px 20px 100px;
+  background-color: rgb(44, 46, 46);
+  color: white;
+}
